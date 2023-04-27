@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #f7f7f7;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#left {
+    flex-basis: 50%;
+}
+
+#left span {
+    font-size: 6rem;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+/* #india{
+    background-image: url(https://st.depositphotos.com/1609126/3723/i/600/depositphotos_37238303-stock-photo-indian-waving-flag.jpg);
+    -webkit-background-clip: text;
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+#in {
+    color: #f79432;
+    color: transparent;
+}
+
+#ia {
+    color: green;
+    color: transparent;
+}
+
+#d {
+    color: darkblue;
+    color: transparent;
+}
+
+#intro {
+    text-align: left !important;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#left h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 5rem;
+    padding: 0px 58px;
+    text-align: center;
+}
+
+#left p {
+    font-size: 2rem;
+    text-align: right;
+    width: 95%;
+}
+
+#right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right img {
+    height: 500px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 39px;
+    background: white;
+    box-shadow: 10px 10px 20px #9d9d9d,
+        -10px -10px 20px #ffffff;
+}
+
+#bottom {
+    padding: 2rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+#bottom h1 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    text-align: left !important;
+    width: 100%;
+}
+
+#bottom i {
+    font-family: monospace;
+    font-weight: bold;
+}
+#bottom img{
+    width: 40%;
+    padding: 20px;
+}
